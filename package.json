@@ -1,0 +1,36 @@
+{
+  "name": "spine-shift-checkbox",
+  "version": "1.0.0",
+  "description": "A Spine Controller providing multiselect checkbox and checkbox rows with shift key support. Based on https://github.com/nylen/shiftcheckbox",
+  "main": "spine-shift-checkbox.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "./node_modules/.bin/iced --bare --map --runtime node -o ./ -c src/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/nextorigin/spine-shift-checkbox.git"
+  },
+  "keywords": [
+    "spine",
+    "spinejs",
+    "spinemvc",
+    "multi-select",
+    "multiselect",
+    "shift",
+    "checkbox"
+  ],
+  "author": "doublerebel",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nextorigin/spine-shift-checkbox/issues"
+  },
+  "homepage": "https://github.com/nextorigin/spine-shift-checkbox#readme",
+  "dependencies": {
+    "iced-runtime": "^1.0.3",
+    "spine": "^1.6.2"
+  },
+  "devDependencies": {
+    "iced-coffee-script": "^108.0.11"
+  }
+}
