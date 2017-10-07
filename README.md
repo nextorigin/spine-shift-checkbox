@@ -6,7 +6,7 @@
 [![devDependency Status][dev-dependency]][david-dev]
 [![Downloads][downloads]][npm]
 
-Manta adapter for Spine models running in NodeJS
+A Spine Controller providing multiselect checkbox and checkbox rows with shift key support. Based on https://github.com/nylen/shiftcheckbox
 
 [![NPM][npm-stats]][npm]
 
